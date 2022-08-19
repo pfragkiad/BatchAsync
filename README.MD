@@ -47,7 +47,7 @@ public static class App
 
 ```
 
-# Sample usage of BatchAsync
+## Sample usage of BatchAsync
 
 ```cs
 using BatchAsyncApp;
