@@ -1,7 +1,7 @@
 
 # BatchAsync
 
-The implementation of the `BatchAsync` is quite straightforward. All subclasses should override the `RunBatch` function:
+The implementation of the `BatchAsync` is straightforward. All subclasses should override the `RunBatch` function:
 ```cs
 
 namespace BatchAsyncApp;
