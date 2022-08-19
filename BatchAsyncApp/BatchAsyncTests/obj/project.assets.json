@@ -1351,11 +1351,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repos2\\pfragkiad\\BatchAsync\\BatchAsyncTests\\BatchAsyncTests.csproj",
+      "projectUniqueName": "C:\\repos2\\pfragkiad\\BatchAsync\\BatchAsyncApp\\BatchAsyncTests\\BatchAsyncTests.csproj",
       "projectName": "BatchAsyncTests",
-      "projectPath": "C:\\repos2\\pfragkiad\\BatchAsync\\BatchAsyncTests\\BatchAsyncTests.csproj",
+      "projectPath": "C:\\repos2\\pfragkiad\\BatchAsync\\BatchAsyncApp\\BatchAsyncTests\\BatchAsyncTests.csproj",
       "packagesPath": "C:\\Users\\north\\.nuget\\packages\\",
-      "outputPath": "C:\\repos2\\pfragkiad\\BatchAsync\\BatchAsyncTests\\obj\\",
+      "outputPath": "C:\\repos2\\pfragkiad\\BatchAsync\\BatchAsyncApp\\BatchAsyncTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",

@@ -19,7 +19,8 @@ internal  class Program
         var cancelToken = source.Token;
 
         //we can use await to wait for everything to finish, but if we want to cancel then we can just call the function
-        var task = batchProcessor.ForEachBatchAsync(stuff, 0, stuff.Count(), 3, cancelToken);
+        var task = batchProcessor.ForEachBatchAsync(stuff,
+            startInclusive:0, endExclusive: stuff.Count(),batchSize: 3, cancelToken);
 
         //create a virtual delay in order to call cancel 
         await Task.Delay(1000);

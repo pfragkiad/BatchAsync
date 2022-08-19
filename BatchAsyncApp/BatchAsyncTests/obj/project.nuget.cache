@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gck3jYqC9NMk2EoLEl+TYD6FpIRcE92nulKie2mcSiu8WXHeaaq3JKnnuPoQxL2KjuCIVNSH9DbyK1hzS3fgGA==",
+  "dgSpecHash": "mMYc0KYZoUM6qpq+TgjD+RWqbRah4sgVYqt9DLVV4/E/+TDdKfj48LSJ1Bpx6hOUEobzhssxOuvWNpvUGxjDuA==",
   "success": true,
-  "projectFilePath": "C:\\repos2\\pfragkiad\\BatchAsync\\BatchAsyncTests\\BatchAsyncTests.csproj",
+  "projectFilePath": "C:\\repos2\\pfragkiad\\BatchAsync\\BatchAsyncApp\\BatchAsyncTests\\BatchAsyncTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\north\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\north\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

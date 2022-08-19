@@ -8,14 +8,14 @@ public class BatchAsync : IBatchAsync
         IEnumerable<T> sourceBatch,
         int batchIndex,
         int batchStartInclusive, int batchEndExclusive,
-        CancellationToken cancellationToken)
+        CancellationToken? cancellationToken = null)
     {
         Console.WriteLine($"Batch {batchIndex}: Started");
         //for (int i = 0; i < batchEndExclusive - batchStartInclusive; i++)
         int count = batchEndExclusive - batchStartInclusive; //= sourceBatch.Count();
         for (int i = 0; i < count; i++)
         {
-            if (cancellationToken.IsCancellationRequested)
+            if (cancellationToken?.IsCancellationRequested ?? false)
             {
                 Console.WriteLine($"Batch {batchIndex}: Cancelled!");
                 return false;
@@ -31,7 +31,7 @@ public class BatchAsync : IBatchAsync
 
     public Task ForEachBatchAsync<T>(
         IEnumerable<T> source,
-        int startInclusive, int endExclusive, int batchSize, CancellationToken cancellationToken)
+        int startInclusive, int endExclusive, int batchSize, CancellationToken? cancellationToken)
     {
         int batches =
             (endExclusive - startInclusive) % batchSize == 0 ?
