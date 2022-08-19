@@ -1,7 +1,9 @@
 
+## 
+
 ## The IBatchAsync interface
 
-The `IBatchASync` interface is common for any batch processor:
+The `IBatchASync` interface is common for any batch processor (`BatchAsync` subclass)):
 
 ```cs
 namespace BatchAsyncApp;
