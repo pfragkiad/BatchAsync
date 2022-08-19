@@ -49,7 +49,7 @@ public static class App
 
 # Sample usage of BatchAsync
 
-```
+```cs
 using BatchAsyncApp;
 
 internal class Program
